@@ -1,0 +1,37 @@
+main {
+  display: block;
+  /* background: url("../images/bg.jfif") repeat 0 0; */
+}
+
+#product {
+  padding: 20px 0;
+  position: relative;
+}
+
+#product:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.6;
+}
+
+header {
+  /* background: url("../images/bg.jpg") no-repeat; */
+  background-size: cover;
+  padding: 20px 0;
+}
+
+h1 {
+  color: green;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+#banner {
+  /* background: url("../images/banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 602px; */
+}
